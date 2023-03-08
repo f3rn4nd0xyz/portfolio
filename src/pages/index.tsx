@@ -1,7 +1,11 @@
+import { Box, useColorMode, useColorModeValue } from "@chakra-ui/react";
+
 export default function Home() {
   return (
     <>
-      <p>portfolio</p>
+      <Box>
+        <p>portfolio</p>
+      </Box>
     </>
   );
 }
